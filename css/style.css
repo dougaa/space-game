@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../fontes/contrast.ttf);
+    font-size: 70px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: Titulo;
+    font-size: 70px;
+    color: rgb(182, 34, 34);
+}
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-decoration: rgb(146, 17, 17);
+}
+body {
+    background-image: url(../img/Square\ -\ Black.jpg);
+    display: flex;
+    height: 900px;
+    width: 5000px;
+}
+
